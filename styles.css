@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  background-color: white;
+}
+
+label {
+  text-decoration: none;
+}
+
+button,
+input {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.login form {
+  display: flex;
+  flex-direction: row;
+}
+
+.login .email {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+form input {
+  padding: 0.6rem 4rem 0.6rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px rgb(177, 177, 177) solid;
+}
+
+form label {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  padding: 0.5rem 0;
+}
+
+.login .password {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.login .password h5 {
+  padding: 0.5rem 0;
+  text-decoration: underline;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 100%;
+}
+
+.login button {
+  padding: 0.6rem 3rem;
+  margin: auto;
+  background-image: linear-gradient(to right, #a03cea, #fb6564);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.jumbotron .intro {
+  font-family: "Sora", sans-serif;
+}
+
+.jumbotron .intro h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 1rem;
+}
+.jumbotron .intro h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+  margin-bottom: 1rem;
+}
+.jumbotron .intro h5 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+  margin-bottom: 1rem;
+}
+
+.jumbotron .intro .card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 0;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+  text-align: center;
+}
+
+.card .item1,
+.card .item2,
+.card .item3 {
+  /* padding: 3rem; */
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.jumbotron .action p {
+  font-family: "Sora", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.jumbotron .action h1 {
+  margin: 1rem 0;
+}
+
+.jumbotron .action button {
+  background-image: linear-gradient(to right, #a03cea, #fb6564);
+  color: white;
+  padding: 0.7rem 7rem;
+  border-radius: 0.5rem;
+}
+
+.chooselogin {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* .action .chooselogin h5 {
+  text-align: center;
+} */
+
+.jumbotron .action .button {
+  display: flex;
+  flex-direction: row;
+}
+
+.jumbotron .action .chooselogin {
+  padding: 1rem 0;
+}
+
+.chooselogin h5 {
+}
+
+.chooselogin .button .item1,
+.item2,
+.item3 {
+  width: 100%;
+  /* height: 0; */
+  /* padding-top: 100%; */
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem;
+  border: rgb(189, 189, 189) 1px solid;
+  border-radius: 0.3rem;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+}
